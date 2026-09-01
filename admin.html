@@ -11,17 +11,17 @@
   <header class="site">
     <div class="header-titles" style="padding-top:6px;">
       <div class="eyebrow">Panel privado · no compartir este link</div>
-      <h1>Carga de datos — SuTurf / Gimnasia</h1>
+      <h1>Carga de datos — SuTurf / Independiente</h1>
     </div>
     <nav class="site">
       <a href="index.html">Volver al portal</a>
     </nav>
   </header>
-  <div class="gye-stripe"></div>
+  <div class="indep-stripe"></div>
 
   <div class="admin-card" id="token-card">
     <h2>Conexión con GitHub</h2>
-    <p class="admin-hint">Pegá acá tu Personal Access Token (con permiso de escritura solo sobre el repo GyE). Se guarda únicamente en este navegador, nunca se comparte.</p>
+    <p class="admin-hint">Pegá acá tu Personal Access Token (con permiso de escritura solo sobre el repo INDEPENDIENTE). Se guarda únicamente en este navegador, nunca se comparte.</p>
     <div class="admin-row">
       <input type="password" id="token-input" placeholder="github_pat_..." autocomplete="off">
       <button class="btn-primary" id="save-token">Guardar</button>
@@ -115,7 +115,7 @@
 <script src="js/app.js"></script>
 <script>
 const OWNER = "Francomarti";
-const REPO = "GyE";
+const REPO = "INDEPENDIENTE";
 const BRANCH = "main";
 
 function getToken() { return localStorage.getItem("gye_admin_token") || ""; }
