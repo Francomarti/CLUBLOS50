@@ -2,7 +2,8 @@
   --navy: #002A5C;       /* SuTurf */
   --navy-deep: #001C3D;
   --gold: #D9AC37;       /* SuTurf */
-  --gye-blue: #003399;   /* Gimnasia y Esgrima */
+  --indep-red: #C02E21;  /* Club Independiente */
+  --indep-black: #171717;
   --paper: #F4F5F7;
   --ink: #1B2333;
   --line: #E3E5EA;
@@ -41,6 +42,14 @@ header.site {
   padding: 18px 20px 0;
 }
 
+header.site.hero-bg {
+  background-image:
+    linear-gradient(180deg, rgba(0,20,45,0.45) 0%, var(--navy) 88%),
+    url('assets/hero-independiente.jpg');
+  background-size: cover;
+  background-position: center 35%;
+}
+
 .brand-row {
   display: flex;
   align-items: center;
@@ -53,6 +62,19 @@ header.site {
   height: 46px;
   width: auto;
   display: block;
+}
+
+.logo-chip {
+  background: white;
+  border-radius: 10px;
+  padding: 4px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-chip img {
+  height: 40px;
 }
 
 .brand-row .x {
@@ -81,14 +103,15 @@ header.site h1 {
   font-weight: 800;
   font-stretch: condensed;
   line-height: 1.25;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.35);
 }
 
-.gye-stripe {
-  height: 5px;
+.indep-stripe {
+  height: 6px;
   background: repeating-linear-gradient(
-    90deg,
-    var(--gye-blue) 0px, var(--gye-blue) 40px,
-    white 40px, white 46px
+    135deg,
+    var(--indep-red) 0px, var(--indep-red) 18px,
+    var(--indep-black) 18px, var(--indep-black) 30px
   );
 }
 
@@ -96,7 +119,7 @@ nav.site {
   display: flex;
   gap: 4px;
   padding: 10px 20px;
-  background: rgba(0,0,0,0.18);
+  background: rgba(0,0,0,0.25);
 }
 
 nav.site a {
@@ -119,7 +142,7 @@ nav.site a.active {
   margin: 18px 20px 0;
   background: white;
   border: 1px solid var(--line);
-  border-left: 5px solid var(--gold);
+  border-left: 5px solid var(--indep-red);
   border-radius: 10px;
   padding: 14px 18px;
 }
@@ -195,7 +218,7 @@ nav.site a.active {
   color: var(--navy);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  border-bottom: 2px solid var(--gold);
+  border-bottom: 2px solid var(--indep-red);
   padding-bottom: 6px;
 }
 
@@ -308,7 +331,7 @@ table.facturas td {
   white-space: nowrap;
 }
 
-.pdf-link:hover { border-color: var(--gold); }
+.pdf-link:hover { border-color: var(--indep-red); }
 
 .pdf-none { color: var(--muted); font-size: 12px; }
 
@@ -339,7 +362,7 @@ table.facturas td {
   text-decoration: none;
   background: white;
   border: 1px solid var(--line);
-  border-top: 4px solid var(--gold);
+  border-top: 4px solid var(--indep-red);
   border-radius: 12px;
   padding: 18px;
 }
@@ -515,7 +538,7 @@ table.facturas td {
   height: 110px;
   min-width: 110px;
   border-radius: 50%;
-  background: conic-gradient(var(--gold) calc(var(--pct) * 1%), var(--line) 0);
+  background: conic-gradient(var(--indep-red) calc(var(--pct) * 1%), var(--line) 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -622,7 +645,7 @@ table.facturas td {
   height: 12px;
   min-width: 12px;
   border-radius: 50%;
-  background: var(--gold);
+  background: var(--indep-red);
   margin-top: 4px;
 }
 
