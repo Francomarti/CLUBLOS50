@@ -45,7 +45,7 @@ header.site {
 header.site.hero-bg {
   background-image:
     linear-gradient(180deg, rgba(0,20,45,0.45) 0%, var(--navy) 88%),
-    url('assets/hero-independiente.jpg');
+    url('../assets/hero-independiente.jpg');
   background-size: cover;
   background-position: center 35%;
 }
