@@ -53,7 +53,7 @@
   const hechasInterv = tareas.filter(t => t.estado === "realizado").reduce((s, t) => s + Number(t.intervenciones || 0), 0);
   const pct = totalInterv ? Math.round((hechasInterv / totalInterv) * 100) : 0;
 
-  const totalPlan = tareas.reduce((s, t) => s + Number(t.valor || 0), 0);
+  const totalPlan = tareas.reduce((s, t) => s + Number(t.valorReal || t.valor || 0), 0);
   const totalRealizado = tareas.filter(t => t.estado === "realizado").reduce((s, t) => s + Number(t.valor || 0), 0);
   const cuotaEsperada = (meta.cuotaFija || 0) * (meta.mesesTranscurridos || 0);
   const diferencia = totalRealizado - cuotaEsperada;
@@ -79,7 +79,7 @@
         <span>trabajo hecho vs. cuota cobrada</span>
       </div>
     </div>
-    <div class="hero-footline"><strong style="color:#1C4E8C;">Plan original iniciado: Junio 2026</strong> · Cuota fija: ${fmt(meta.cuotaFija)}/mes · Plan anual: ${fmt(totalPlan)} · Realizado: ${fmt(totalRealizado)}</div>
+    <div class="hero-footline"><strong style="color:#1C4E8C;">Plan original iniciado: Junio 2026</strong> · Cuota fija: ${fmt(meta.cuotaFija)}/mes · Plan anual (valor real): ${fmt(totalPlan)} · Cobrado a Los 50: ${fmt(totalRealizado)}</div>
   `;
 
   // ---- Próxima tarea ----
