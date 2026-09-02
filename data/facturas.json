@@ -22,5 +22,17 @@
     "fechaPago": "2026-08-05",
     "medioPago": "Transferencia Bancaria",
     "pdf": null
+  },
+  {
+    "id": 3,
+    "numero": "45",
+    "fecha": "2026-09-02",
+    "concepto": "Cuota Agosto (3)",
+    "monto": 480000,
+    "estado": "pendiente",
+    "montoPagado": 0,
+    "fechaPago": null,
+    "medioPago": null,
+    "pdf": null
   }
 ]
