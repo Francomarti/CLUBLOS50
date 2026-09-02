@@ -2,7 +2,7 @@
   --navy: #002A5C;       /* SuTurf */
   --navy-deep: #001C3D;
   --gold: #D9AC37;       /* SuTurf */
-  --indep-red: #C02E21;  /* Club Independiente */
+  --indep-red: #1C4E8C;  /* Club Los 50 */
   --indep-black: #171717;
   --paper: #F4F5F7;
   --ink: #1B2333;
@@ -45,7 +45,7 @@ header.site {
 header.site.hero-bg {
   background-image:
     linear-gradient(180deg, rgba(0,20,45,0.45) 0%, var(--navy) 88%),
-    url('../assets/hero-independiente.jpg');
+    url('../assets/hero-los50.jpg');
   background-size: cover;
   background-position: center 35%;
 }
