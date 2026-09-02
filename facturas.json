@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "numero": "00001-00000037",
-    "fecha": "2026-07-04",
-    "concepto": "Slicer Profundo (3 pasadas cancha completa)",
-    "monto": 480000,
-    "estado": "pagado",
-    "montoPagado": 480000,
-    "fechaPago": "2026-07-04",
-    "medioPago": "Otra",
+    "numero": "",
+    "fecha": "2026-06-30",
+    "concepto": "Slicer Profundo x3 (Cancha 3)",
+    "monto": 600000,
+    "estado": "pagada",
+    "montoPagado": 600000,
+    "fechaPago": "2026-06-30",
+    "medioPago": "",
     "pdf": null
   },
   {
     "id": 2,
-    "numero": "00001-00000039",
-    "fecha": "2026-08-05",
-    "concepto": "Aireaciones Púa hueca/slicer",
-    "monto": 480000,
-    "estado": "pagado",
-    "montoPagado": 480000,
-    "fechaPago": "2026-08-05",
-    "medioPago": "Transferencia Bancaria",
+    "numero": "",
+    "fecha": "2026-09-01",
+    "concepto": "Fertilización + Fertilización y Malezas",
+    "monto": 240000,
+    "estado": "pagada",
+    "montoPagado": 240000,
+    "fechaPago": "2026-09-01",
+    "medioPago": "",
     "pdf": null
   }
 ]
