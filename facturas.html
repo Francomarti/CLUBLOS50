@@ -22,12 +22,11 @@
       <a href="index.html">Inicio</a>
       <a href="cronograma.html">Cronograma</a>
       <a href="facturas.html" class="active">Facturación</a>
+      <a href="insumos.html">Insumos</a>
     </nav>
   </header>
   <div class="indep-stripe"></div>
-
   <div class="cards" id="cards"></div>
-
   <div class="section-title">Detalle de facturas</div>
   <table class="facturas">
     <thead>
@@ -43,28 +42,22 @@
     </thead>
     <tbody id="tabla-facturas"></tbody>
   </table>
-
   <div class="footer-note">Para actualizar: usar el panel de carga privado.</div>
 </div>
-
 <script src="js/app.js"></script>
 <script>
 (async function () {
   const facturas = await cargarJSON("data/facturas.json");
-
   const totalFacturado = facturas.reduce((s, f) => s + Number(f.monto || 0), 0);
   const totalCobrado = facturas.reduce((s, f) => s + Number(f.montoPagado || 0), 0);
   const saldo = totalFacturado - totalCobrado;
   const pendientes = facturas.filter(f => f.estado !== "pagada").length;
-
   document.getElementById("cards").innerHTML = `
     <div class="card"><div class="label">Total facturado</div><div class="value">${fmt(totalFacturado)}</div></div>
     <div class="card"><div class="label">Total cobrado</div><div class="value">${fmt(totalCobrado)}</div></div>
     <div class="card ${saldo > 0 ? "neg" : "pos"}"><div class="label">Saldo pendiente</div><div class="value">${fmt(saldo)}</div></div>
     <div class="card"><div class="label">Facturas sin cobrar</div><div class="value">${pendientes}</div></div>`;
-
   const estadoLabel = { pagada: "Pagada", pendiente: "Pendiente", parcial: "Pago parcial" };
-
   if (facturas.length === 0) {
     document.getElementById("tabla-facturas").innerHTML = `<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:16px;">Todavía no hay facturas cargadas.</td></tr>`;
   } else {
