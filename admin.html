@@ -11,7 +11,7 @@
   <header class="site hero-bg">
     <div class="header-titles" style="padding-top:6px;">
       <div class="eyebrow">Panel privado · no compartir este link</div>
-      <h1>Carga de datos — SuTurf / Independiente</h1>
+      <h1>Carga de datos — SuTurf / Club Los 50</h1>
     </div>
     <nav class="site">
       <a href="index.html">Volver al portal</a>
@@ -21,7 +21,7 @@
 
   <div class="admin-card" id="token-card">
     <h2>Conexión con GitHub</h2>
-    <p class="admin-hint">Pegá acá tu Personal Access Token (con permiso de escritura solo sobre el repo INDEPENDIENTE). Se guarda únicamente en este navegador, nunca se comparte.</p>
+    <p class="admin-hint">Pegá acá tu Personal Access Token (con permiso de escritura sobre el repo CLUBLOS50). Se guarda únicamente en este navegador, nunca se comparte.</p>
     <div class="admin-row">
       <input type="password" id="token-input" placeholder="github_pat_..." autocomplete="off">
       <button class="btn-primary" id="save-token">Guardar</button>
@@ -63,7 +63,7 @@
       </div>
       <input id="t-tarea" placeholder="Descripción de la tarea">
       <div class="admin-row">
-        <input id="t-zona" placeholder="Zona" value="Cancha completa">
+        <input id="t-zona" placeholder="Zona" value="Cancha 1, Cancha 2, Cancha 3, Muni">
         <input type="number" id="t-valor" placeholder="Valor $">
         <input type="number" id="t-interv" placeholder="Interv." value="1" style="max-width:80px">
       </div>
@@ -137,7 +137,7 @@
 <script src="js/app.js"></script>
 <script>
 const OWNER = "Francomarti";
-const REPO = "INDEPENDIENTE";
+const REPO = "CLUBLOS50";
 const BRANCH = "main";
 
 function getToken() { return localStorage.getItem("gye_admin_token") || ""; }
@@ -297,7 +297,7 @@ document.getElementById("add-tarea").onclick = async () => {
     mes: document.getElementById("t-mes").value,
     anio: Number(document.getElementById("t-anio").value) || 2026,
     tarea,
-    zona: document.getElementById("t-zona").value.trim() || "Cancha completa",
+    zona: document.getElementById("t-zona").value.trim() || "Cancha 1, Cancha 2, Cancha 3, Muni",
     valor: Number(document.getElementById("t-valor").value) || 0,
     intervenciones: Number(document.getElementById("t-interv").value) || 1,
     estado: "planificado",
