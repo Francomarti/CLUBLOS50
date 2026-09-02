@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portal SuTurf — Club Independiente</title>
+<title>Portal SuTurf — Club Los 50</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,11 +12,11 @@
     <div class="brand-row">
       <img src="assets/logo-suturf.png" alt="SuTurf Tandil">
       <span class="x">×</span>
-      <div class="logo-chip"><img src="assets/logo-independiente.png" alt="Club Independiente"></div>
+      <div class="logo-chip"><img src="assets/logo-los50.png" alt="Club Los 50"></div>
     </div>
     <div class="header-titles">
       <div class="eyebrow">SuTurf Tandil · Ing. Agr. Franco Martignoni</div>
-      <h1>Portal de mantenimiento — Club Independiente</h1>
+      <h1>Portal de mantenimiento — Club Los 50</h1>
     </div>
     <nav class="site">
       <a href="index.html" class="active">Inicio</a>
@@ -44,4 +44,19 @@
 (async function () {
   try {
     const plan = await cargarJSON("data/plan.json");
-    const proxima = (plan.tareas || []).find(t => t.estado !==
+    const proxima = (plan.tareas || []).find(t => t.estado !== "realizado");
+    if (proxima) {
+      document.getElementById("next-banner").innerHTML = `
+        <div class="next-banner">
+          <div class="label">Próxima tarea</div>
+          <div class="tarea">${proxima.tarea}</div>
+          <div class="meta">${proxima.mes} ${proxima.anio} · ${proxima.zona} · ${fmt(proxima.valor)}</div>
+        </div>`;
+    }
+  } catch (e) {
+    console.error(e);
+  }
+})();
+</script>
+</body>
+</html>
