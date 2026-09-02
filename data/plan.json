@@ -1,220 +1,25 @@
 {
   "meta": {
-    "cliente": "Club Independiente",
+    "cliente": "Club Los 50",
     "periodo": "Junio 2026 – Marzo 2027",
-    "cuotaFija": 551111,
+    "cuotaFija": 661389,
     "mesesTranscurridos": 3
   },
   "cambios": [],
   "tareas": [
-    {
-      "id": 1,
-      "mes": "Junio",
-      "anio": 2026,
-      "tarea": "Aireado Slicer Profundo",
-      "zona": "Central y áreas x2",
-      "valor": 160000,
-      "intervenciones": 0.25,
-      "estado": "realizado",
-      "notas": ""
-    },
-    {
-      "id": 2,
-      "mes": "Junio",
-      "anio": 2026,
-      "tarea": "Aireado Slicer Profundo",
-      "zona": "Cancha completa",
-      "valor": 320000,
-      "intervenciones": 0.75,
-      "estado": "realizado",
-      "notas": ""
-    },
-    {
-      "id": 3,
-      "mes": "Julio",
-      "anio": 2026,
-      "tarea": "Aireado Slicer Profundo",
-      "zona": "Cancha completa",
-      "valor": 320000,
-      "intervenciones": 1,
-      "estado": "realizado",
-      "notas": ""
-    },
-    {
-      "id": 4,
-      "mes": "Julio",
-      "anio": 2026,
-      "tarea": "Púa Hueca",
-      "zona": "Cancha completa",
-      "valor": 160000,
-      "intervenciones": 1,
-      "estado": "realizado",
-      "notas": ""
-    },
-    {
-      "id": 5,
-      "mes": "Septiembre",
-      "anio": 2026,
-      "tarea": "Aireado Slicer Profundo",
-      "zona": "Cancha completa",
-      "valor": 320000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 6,
-      "mes": "Octubre",
-      "anio": 2026,
-      "tarea": "Control de Malezas",
-      "zona": "Cancha completa",
-      "valor": 150000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 7,
-      "mes": "Octubre",
-      "anio": 2026,
-      "tarea": "Aireado Slicer Profundo/Púa Sólida",
-      "zona": "Cancha completa",
-      "valor": 400000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 8,
-      "mes": "Noviembre",
-      "anio": 2026,
-      "tarea": "Púa Hueca",
-      "zona": "Cancha completa",
-      "valor": 400000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 9,
-      "mes": "Noviembre",
-      "anio": 2026,
-      "tarea": "Corte Vertical",
-      "zona": "Cancha completa",
-      "valor": 300000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 10,
-      "mes": "Noviembre",
-      "anio": 2026,
-      "tarea": "Arenado 60tn",
-      "zona": "Cancha completa",
-      "valor": 460000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 11,
-      "mes": "Diciembre",
-      "anio": 2026,
-      "tarea": "Aireado Slicer Profundo",
-      "zona": "Zona Central",
-      "valor": 240000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 12,
-      "mes": "Enero",
-      "anio": 2027,
-      "tarea": "Control de Malezas",
-      "zona": "Cancha completa",
-      "valor": 150000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 13,
-      "mes": "Enero",
-      "anio": 2027,
-      "tarea": "Aireado Slicer Profundo",
-      "zona": "Cancha completa",
-      "valor": 320000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 14,
-      "mes": "Enero",
-      "anio": 2027,
-      "tarea": "Corte Vertical (doble)",
-      "zona": "Cancha completa",
-      "valor": 450000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 15,
-      "mes": "Marzo",
-      "anio": 2027,
-      "tarea": "Púa Hueca",
-      "zona": "Cancha completa",
-      "valor": 400000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 16,
-      "mes": "Marzo",
-      "anio": 2027,
-      "tarea": "Corte Vertical (doble)",
-      "zona": "Cancha completa doble",
-      "valor": 450000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 17,
-      "mes": "Marzo",
-      "anio": 2027,
-      "tarea": "Siembra",
-      "zona": "Cancha completa",
-      "valor": 0,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 18,
-      "mes": "Marzo",
-      "anio": 2027,
-      "tarea": "Arenado 60tn",
-      "zona": "Cancha completa",
-      "valor": 460000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    },
-    {
-      "id": 19,
-      "mes": "Septiembre",
-      "anio": 2026,
-      "tarea": "Arenado 30tn",
-      "zona": "Cancha completa",
-      "valor": 460000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": ""
-    }
+    { "id": 1, "mes": "Junio", "anio": 2026, "tarea": "Slicer Profundo x2 (Cancha 2) + Slicer Profundo x3 y Rolo (Muni)", "zona": "Cancha 2, Muni", "valor": 350000, "valorReal": 700000, "intervenciones": 1, "estado": "realizado", "notas": "Valor real (todas las zonas): $700.000" },
+    { "id": 2, "mes": "Junio", "anio": 2026, "tarea": "Slicer Profundo x2", "zona": "Cancha 1", "valor": 175000, "valorReal": 350000, "intervenciones": 1, "estado": "realizado", "notas": "Valor real: $350.000" },
+    { "id": 3, "mes": "Junio", "anio": 2026, "tarea": "Slicer Profundo x3", "zona": "Cancha 3", "valor": 600000, "valorReal": 350000, "intervenciones": 1, "estado": "realizado", "notas": "Valor real: $350.000 · Ya facturado y cobrado" },
+    { "id": 4, "mes": "Agosto", "anio": 2026, "tarea": "Púa Hueca x2", "zona": "Cancha 2, Cancha 3", "valor": 350000, "valorReal": 700000, "intervenciones": 1, "estado": "realizado", "notas": "Valor real (todas las zonas): $700.000" },
+    { "id": 5, "mes": "Septiembre", "anio": 2026, "tarea": "Fertilización / Fertilización + Malezas", "zona": "Cancha 1, Cancha 2", "valor": 240000, "valorReal": 360000, "intervenciones": 1, "estado": "planificado", "notas": "Valor real: $360.000 · Ya facturado y cobrado" },
+    { "id": 6, "mes": "Septiembre", "anio": 2026, "tarea": "Slicer Profundo", "zona": "Cancha 1, Cancha 2, Cancha 3, Muni", "valor": 612500, "valorReal": 1225000, "intervenciones": 1, "estado": "planificado", "notas": "Valor real (todas las zonas): $1.225.000" },
+    { "id": 7, "mes": "Noviembre", "anio": 2026, "tarea": "Corte Vertical", "zona": "Cancha 1, Cancha 2, Cancha 3, Muni", "valor": 675000, "valorReal": 1350000, "intervenciones": 1, "estado": "planificado", "notas": "Valor real (todas las zonas): $1.350.000" },
+    { "id": 8, "mes": "Diciembre", "anio": 2026, "tarea": "Control de Malezas", "zona": "Cancha 1, Cancha 2, Cancha 3, Muni", "valor": 315000, "valorReal": 630000, "intervenciones": 1, "estado": "planificado", "notas": "Valor real (todas las zonas): $630.000" },
+    { "id": 9, "mes": "Diciembre", "anio": 2026, "tarea": "Púa Hueca / Slicer Profundo", "zona": "Cancha 1, Cancha 2, Cancha 3, Muni", "valor": 612500, "valorReal": 1225000, "intervenciones": 1, "estado": "planificado", "notas": "Valor real (todas las zonas): $1.225.000" },
+    { "id": 10, "mes": "Diciembre", "anio": 2026, "tarea": "Arenado", "zona": "Cancha 1, Cancha 2, Cancha 3", "valor": 675000, "valorReal": 1350000, "intervenciones": 1, "estado": "planificado", "notas": "Valor real (todas las zonas): $1.350.000 · Insumo: Arena 35tn/cancha" },
+    { "id": 11, "mes": "Enero", "anio": 2027, "tarea": "Slicer Profundo", "zona": "Cancha 1, Cancha 2, Cancha 3, Muni", "valor": 612500, "valorReal": 1225000, "intervenciones": 1, "estado": "planificado", "notas": "Valor real (todas las zonas): $1.225.000" },
+    { "id": 12, "mes": "Marzo", "anio": 2027, "tarea": "Slicer Profundo", "zona": "Cancha 1, Cancha 2, Cancha 3, Muni", "valor": 787500, "valorReal": 1575000, "intervenciones": 1, "estado": "planificado", "notas": "Valor real (todas las zonas): $1.575.000" },
+    { "id": 13, "mes": "Marzo", "anio": 2027, "tarea": "Corte Vertical", "zona": "Cancha 1, Cancha 2, Cancha 3, Muni", "valor": 787500, "valorReal": 1575000, "intervenciones": 1, "estado": "planificado", "notas": "Valor real: 3×$450.000 + mitad MUNI $225.000 = $1.575.000" },
+    { "id": 14, "mes": "Marzo", "anio": 2027, "tarea": "Resiembra", "zona": "Cancha 1, Cancha 2, Cancha 3, Muni", "valor": 0, "valorReal": 0, "intervenciones": 1, "estado": "planificado", "notas": "Insumo: 800kg Rye Grass Perenne (costo aparte)" }
   ]
 }
