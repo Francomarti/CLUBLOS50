@@ -30,7 +30,7 @@
     "concepto": "Púa Hueca x2 (Cancha 2, Cancha 3)",
     "monto": 350000,
     "estado": "pendiente",
-    "montoPagado": 350000,
+    "montoPagado": 0,
     "fechaPago": "2026-09-02",
     "medioPago": null,
     "pdf": null
