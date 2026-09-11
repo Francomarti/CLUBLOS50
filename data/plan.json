@@ -2,7 +2,7 @@
   "meta": {
     "cliente": "Club Los 50",
     "periodo": "Junio 2026 – Marzo 2027",
-    "cuotaFija": 661399,
+    "cuotaFija": 661389,
     "mesesTranscurridos": 3
   },
   "cambios": [],
@@ -174,17 +174,6 @@
       "intervenciones": 1,
       "estado": "planificado",
       "notas": "Insumo: 800kg Rye Grass Perenne (costo aparte)"
-    },
-    {
-      "id": 15,
-      "mes": "Agosto",
-      "anio": 2026,
-      "tarea": "Fertilizacion NUEVA C2 + control de malezas",
-      "zona": "C2",
-      "valor": 90,
-      "intervenciones": 1,
-      "estado": "realizado",
-      "notas": ""
     }
   ]
 }
