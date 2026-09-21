@@ -2,7 +2,7 @@
   "meta": {
     "cliente": "Club Los 50",
     "periodo": "Junio 2026 – Marzo 2027",
-    "cuotaFija": 676944,
+    "cuotaFija": 650278,
     "mesesTranscurridos": 3
   },
   "cambios": [],
@@ -54,18 +54,6 @@
       "intervenciones": 1,
       "estado": "realizado",
       "notas": "Valor real (todas las zonas): $700.000"
-    },
-    {
-      "id": 5,
-      "mes": "Septiembre",
-      "anio": 2026,
-      "tarea": "Fertilización / Fertilización + Malezas",
-      "zona": "Cancha 1, Cancha 2",
-      "valor": 240000,
-      "valorReal": 360000,
-      "intervenciones": 1,
-      "estado": "planificado",
-      "notas": "Valor real: $360.000 · Ya facturado y cobrado"
     },
     {
       "id": 6,
