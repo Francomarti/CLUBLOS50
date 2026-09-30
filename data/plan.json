@@ -2,7 +2,7 @@
   "meta": {
     "cliente": "Club Los 50",
     "periodo": "Junio 2026 – Marzo 2027",
-    "cuotaFija": 654444,
+    "cuotaFija": 704444,
     "mesesTranscurridos": 3
   },
   "cambios": [],
@@ -190,6 +190,17 @@
       "tarea": "Corte Vertical",
       "zona": "Cancha 1, Cancha 2, Cancha 3, Muni",
       "valor": 675000,
+      "intervenciones": 1,
+      "estado": "planificado",
+      "notas": ""
+    },
+    {
+      "id": 20,
+      "mes": "Octubre",
+      "anio": 2026,
+      "tarea": "Aireado Slicer",
+      "zona": "Cancha 1, Cancha 2, Cancha 3, Muni",
+      "valor": 450000,
       "intervenciones": 1,
       "estado": "planificado",
       "notas": ""
