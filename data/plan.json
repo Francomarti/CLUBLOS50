@@ -2,7 +2,7 @@
   "meta": {
     "cliente": "Club Los 50",
     "periodo": "Junio 2026 – Marzo 2027",
-    "cuotaFija": 579444,
+    "cuotaFija": 654444,
     "mesesTranscurridos": 3
   },
   "cambios": [],
@@ -181,6 +181,17 @@
       "valor": 50000,
       "intervenciones": 1,
       "estado": "realizado",
+      "notas": ""
+    },
+    {
+      "id": 19,
+      "mes": "Diciembre",
+      "anio": 2026,
+      "tarea": "Corte Vertical",
+      "zona": "Cancha 1, Cancha 2, Cancha 3, Muni",
+      "valor": 675000,
+      "intervenciones": 1,
+      "estado": "planificado",
       "notas": ""
     }
   ]
