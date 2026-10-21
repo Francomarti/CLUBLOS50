@@ -41,9 +41,9 @@
     "fecha": "2026-09-30",
     "concepto": "Cuota Septiembre",
     "monto": 654000,
-    "estado": "pendiente",
-    "montoPagado": 0,
-    "fechaPago": "2026-09-30",
+    "estado": "pagada",
+    "montoPagado": 654000,
+    "fechaPago": "2026-10-21",
     "medioPago": null,
     "pdf": "https://drive.google.com/file/d/1-oiTfSqTQAjpccty6qRgXkYS20AWtRXK/view?usp=sharing"
   }
